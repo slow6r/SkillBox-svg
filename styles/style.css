@@ -1,0 +1,121 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    width: 1440px;
+    height: 959px;
+}
+
+
+body{
+    width: 1440px;
+    height: 959px;
+    font-family: "Open Sans", sans-serif;
+    color: #000;
+}
+
+main{
+    background-color: #ffffff;
+    position: absolute;
+    width: 100%;
+}
+
+header{
+    height: 636px;
+    background-color: #FFF6ED;
+}
+
+.header__title{
+    justify-content: center;
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    padding-top: 60px;
+    margin-bottom: 40px;
+}
+
+.header__cards{
+    display: flex;
+    flex-direction: row;
+    padding-left: 57px;
+    padding-right: 57px;
+    gap: 100px;
+}
+
+.card{
+    width: 375px;
+    height: 440px;
+}
+
+.card__title{
+    font-weight: 700;
+    font-size: 30px;
+    padding-top: 21px;
+}
+
+.card__title-orange{
+    color: #FF7A00;
+}
+
+.card__text{
+    font-size: 16px;
+
+}
+
+svg{
+    width: 375px;
+    height: 288px;
+}
+
+.main__title{
+    font-size: 40px;
+    font-weight: 700;
+    padding-left: 57px;
+    padding-top: 60px;
+    text-shadow: 0 4px 5px#0000005d;
+}
+
+
+.main__text{
+    font-size: 16px;
+    width: 592px;
+    height: 84px;
+    padding-left: 57px;
+    padding-top: 11px;
+}
+
+.main__ellispe{
+    position: relative;
+    z-index: 1;
+    left: 720px;
+    bottom: 224px;
+}
+
+.main__logo{
+    position: relative;
+    width: 550px;
+    height: 170px;
+    z-index: 2;
+    display: flex;
+    gap: 90px;
+    left: 832px;
+    bottom: 440px;
+}
+
+.main__logo2{
+    display: flex;
+    gap: 90px;
+    z-index: 3;
+    position: relative;
+    left: 905px;
+    gap: 90px;
+    bottom:500px;
+}
+
+.main__logo img{
+    width: 70px;
+    height: 70px;
+}
