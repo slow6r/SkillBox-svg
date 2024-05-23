@@ -7,7 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,900;1,300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./styles/svg">
+    <link rel="stylesheet" href="./sprites.svg">
     <title>Document</title>
 </head>
 <body>
@@ -17,7 +17,9 @@
         </div>
         <div class="header__cards">
             <div class="card">
-                <img src="./styles/svg/coffee.svg" alt="кофе">
+                <svg width="375" height="288" viewBox="0 0 375 288">
+                    <use xlink:href="sprites.svg#coffee"></use>
+                </svg>
                 <div class="card__title">
                     Утренний <span class="card__title-orange">кофе</span>
                 </div>
@@ -26,7 +28,9 @@
                 </div>
             </div>
             <div class="card">
-                <img src="./styles/svg/meditating.svg" alt="медитация">
+                <svg width="375" height="288" viewBox="0 0 375 288">
+                    <use xlink:href="sprites.svg#meditation"></use>
+                </svg>
                 <div class="card__title">
                     Час <span class="card__title-orange">медитации</span>
                 </div>
@@ -35,7 +39,9 @@
                 </div>
             </div>
             <div class="card">
-                <img src="./styles/svg/sprinting.svg" alt="спринт">
+                <svg width="375" height="288" viewBox="0 0 375 288">
+                    <use xlink:href="sprites.svg#sprinting"></use>
+                </svg>
                 <div class="card__title">
                     Вперёд к <span class="card__title-orange">свершениям!</span>
                 </div>
@@ -50,17 +56,33 @@
             Интеграция со сторонними <br>сервисами
         </div>
         <div class="main__text">Поможет всегда оставаться в курсе всех событий, быть максимально эффективным на протяжении всего рабочего дня, контролировать свои задачи и не опоздать на запланированные встречи.</div>
-        <img src="./styles/svg/Ellipse 2.svg" alt="декорация" class="main__ellispe">
+        <svg width="550" height="275" viewBox="0 0 550 275" fill="none" xmlns="http://www.w3.org/2000/svg" id="ellipse" class="main__ellispe">
+            <use xlink:href="sprites.svg#ellipse"></use>
+        </svg>
         <div class="main__logo">
-            <img src="./styles/svg/facebook-3 logo.svg" alt="">
-            <img src="./styles/svg/Subtract-1.svg" alt="">
-            <img src="./styles/svg/worklio-icon logo.svg" alt="">
-            <img src="./styles/svg/dropbox.svg" alt="">
+            <svg width="70" height="70" viewBox="0 0 70 70">
+                <use xlink:href="sprites.svg#facebook"></use>
+            </svg>
+            <svg width="70" height="70" viewBox="0 0 70 70">
+                <use xlink:href="sprites.svg#todoist"></use>
+            </svg>
+            <svg width="70" height="70" viewBox="0 0 70 70">
+                <use xlink:href="sprites.svg#worklio"></use>
+            </svg>
+            <svg width="70" height="70" viewBox="0 0 70 70">
+                <use xlink:href="sprites.svg#dropbox"></use>
+            </svg>
         </div>
         <div class="main__logo2">
-            <img src="./styles/svg/Google logo.svg" alt="">
-            <img src="./styles/svg/Subtract.svg" alt="">
-            <img src="./styles/svg/slack logo.svg" alt="">
+            <svg width="70" height="70" viewBox="0 0 70 70">
+                <use xlink:href="sprites.svg#google"></use>
+            </svg>
+            <svg width="70" height="70" viewBox="0 0 70 70">
+                <use xlink:href="sprites.svg#trello"></use>
+            </svg>
+            <svg width="70" height="70" viewBox="0 0 70 70">
+                <use xlink:href="sprites.svg#slack"></use>
+            </svg>
         </div>
     </main>
 </body>
