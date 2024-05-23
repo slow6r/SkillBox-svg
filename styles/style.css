@@ -92,6 +92,8 @@ svg{
     z-index: 1;
     left: 720px;
     bottom: 224px;
+    width: 550px;
+    height: 275px;
 }
 
 .main__logo{
@@ -115,7 +117,13 @@ svg{
     bottom:500px;
 }
 
-.main__logo img{
+.main__logo svg{
     width: 70px;
     height: 70px;
 }
+
+.main__logo2 svg{
+    width: 70px;
+    height: 70px;
+}
+
